@@ -1,0 +1,60 @@
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+
+
+}
+body{
+    margin: 0;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+}
+
+.red{
+
+    background-color: red;
+}
+
+.green{
+
+    background-color: green;
+}
+
+.orange{
+    background-color: orangered;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.lite-purple{
+    background-color: palevioletred;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.dark-blue{
+    background-color: blueviolet;
+}
+
+
+
+.gird-col2{
+    grid-column: span 2;
+}
+
+.grid-row2{
+    grid-row: span 3;
+}
